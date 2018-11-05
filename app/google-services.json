@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "795509161290",
+    "firebase_url": "https://finalrs-4a276.firebaseio.com",
+    "project_id": "finalrs-4a276",
+    "storage_bucket": "finalrs-4a276.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795509161290:android:0aebe0cf18ed42a5",
+        "android_client_info": {
+          "package_name": "com.example.android.recreatesafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795509161290-d7q2ltcmam7eal1q9jhuvbg4eh26ne91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsYouyw7BR7nefJN-GduUZwXxb3Kzpe08"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

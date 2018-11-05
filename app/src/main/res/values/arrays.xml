@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="types_array">
+        <item>All</item>
+        <item>Beaches</item>
+        <item>Camps</item>
+        <item>Dog Parks</item>
+        <item>Equestrian Centers</item>
+        <item>Free Wi-Fi Hot Spots</item>
+        <item>Gardens</item>
+        <item>Golf Courses</item>
+        <item>Hiking Trails</item>
+        <item>Lakes</item>
+        <item>Museums</item>
+        <item>Open Space</item>
+        <item>Outdoor Fitness Equipment</item>
+        <item>Parks</item>
+        <item>Public Computer Centers</item>
+        <item>Recreation Centers</item>
+        <item>Rental Facilities</item>
+        <item>Senior Centers</item>
+        <item>Skate Parks</item>
+        <item>Swimming Pools - Summer</item>
+        <item>Swimming Pools - Year Round</item>
+        <item>Tennis Courts</item>
+        <item>Theatre</item>
+        <item>Universally Accessible Playgrounds</item>
+    </string-array>
+    <string-array name="sort_methods_array">
+        <item>Distance</item>
+        <item>Name</item>
+        <item>Type</item>
+        <item>Rating</item>
+        <item>Address</item>
+    </string-array>
+</resources>

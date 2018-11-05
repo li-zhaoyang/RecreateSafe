@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="1500dp"
+    android:orientation="vertical"
+    tools:context="com.example.wangliujie.firechat.MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="480dp"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="30dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            app:layout_constraintHorizontal_bias="0.486"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            >
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="park_name"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+
+
+            <LinearLayout
+                android:id="@+id/ll_linearlayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                app:layout_constraintHorizontal_bias="0.486"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="parent"
+                >
+
+                <TextView
+                    android:id="@+id/tv_Type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:paddingTop="8sp"
+
+                    android:text="Type"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv_Address"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:paddingTop="6sp"
+                    android:text="Address"
+
+                    android:textSize="15sp" />
+
+                <!--<TextView-->
+                <!--android:id="@+id/tv_City"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="3dp"-->
+                <!--android:paddingTop="6sp"-->
+                <!--android:text="City"-->
+
+                <!--android:textSize="15sp" />-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/tv_State"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="3dp"-->
+                <!--android:paddingTop="6sp"-->
+                <!--android:text="State"-->
+
+                <!--android:textSize="15sp" />-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/tv_Zip"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="3dp"-->
+                <!--android:paddingTop="6sp"-->
+                <!--android:text="Zip"-->
+
+                <!--android:textSize="15sp" />-->
+
+                <TextView
+                    android:id="@+id/tv_Rating"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:paddingTop="6sp"
+                    android:text="Rating"
+                    android:layout_marginLeft="10dp"
+
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv_Phone"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:paddingTop="6sp"
+                    android:text="Phone: Not Available"
+                    android:autoLink="email|phone|web"
+
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv_Website"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:paddingTop="6sp"
+                    android:text="Website: Not Available"
+                    android:autoLink="email|phone|web"
+
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_linearlayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/ll_linearlayout222"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="60dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="parent"
+                    android:background="#E8E8E8"
+                    >
+                    <TextView
+                        android:id="@+id/tv_TipsTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginLeft="75dp"
+                        android:paddingTop="6sp"
+                        android:text="Safety Tips"
+
+
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+
+                        android:id="@+id/tv_Tips"
+                        android:layout_marginLeft="25dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:paddingTop="6sp"
+                        android:text="tips"
+                        android:layout_marginBottom="20dp"
+
+                        android:textSize="15sp" />
+                </LinearLayout>>
+
+                <Button
+                    android:id="@+id/b_map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Show in Map"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="130dp"
+                    app:layout_constraintHorizontal_bias="0.945" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_linearlayout4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                app:layout_constraintHorizontal_bias="0.486"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="parent">
+
+                <EditText
+                    android:id="@+id/et_comment"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:hint="   Add a comment..."
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="0dp"
+                    app:layout_constraintHorizontal_bias="0.238"
+                    />
+                <Button
+                    android:id="@+id/b_submitcomment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="SUBMIT"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginTop="0dp"
+                    app:layout_constraintHorizontal_bias="0.945" />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_width="14dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--tools:layout_editor_absoluteY="0dp"-->
+    <!--tools:layout_editor_absoluteX="8dp">-->
+    <!--<android.support.v7.widget.RecyclerView-->
+    <!--android:id="@+id/my_recycler_view"-->
+    <!--android:scrollbars="vertical"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"/>-->
+    <!--</RelativeLayout>-->
+    <TextView
+
+        android:id="@+id/tv_Comments"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:paddingTop="6sp"
+        android:text="Comments:"
+        android:layout_marginBottom="0dp"
+
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:scrollbars="vertical"
+        android:layout_width="390dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+
+
+</LinearLayout>
+
+

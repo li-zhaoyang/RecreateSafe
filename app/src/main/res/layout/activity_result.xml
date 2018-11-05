@@ -1,0 +1,85 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/resultListAndMap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="invisible">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="171dp"
+            tools:context="com.example.android.recreatesafe.ResultActivity"
+            map:cameraZoom="13"
+            map:cameraTargetLat="34.048391"
+            map:cameraTargetLng="-118.2554227"
+
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42sp"
+            android:weightSum="1">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/bt_type_filter"
+                android:text="Type Filter"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/tv_select_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="72sp"
+                android:text="Sort by:"
+                android:textSize="18sp"/>
+
+            <Spinner
+                android:id="@+id/sp_sort_by"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:paddingTop="1dp"
+            android:id="@+id/rv_parks"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_no_result_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:text="@string/result_list_activity_no_result"
+        android:textSize="30sp"
+        android:layout_marginHorizontal="30sp" />
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true" />
+    </RelativeLayout>
+</FrameLayout>
